@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Theravada Daily — Privacy Policy</title>
+<style>
+  :root {
+    --ink: #2A2219;
+    --ink-soft: #5A4D3F;
+    --bg: #FDFBF7;
+    --card: #FFFFFF;
+    --accent: #E8690C;
+    --gold: #D9A013;
+    --border: #EFE7DA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 96px;
+  }
+  header {
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    display: inline-block;
+    color: var(--gold);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .meta {
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  p, li { color: var(--ink-soft); font-size: 16px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .pill {
+    display: inline-block;
+    background: #FFF3E6;
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  .note {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="eyebrow">Theravada Daily</span>
+      <h1>Privacy Policy</h1>
+      <div class="meta">Last updated: October 9, 2026</div>
+    </header>
+
+    <p>
+      Theravada Daily is a Buddhist practice-tracking app. This policy explains what
+      information the app collects, how it's used, and the choices you have. We've
+      written it to describe exactly what the app does — not more, not less.
+    </p>
+
+    <h2>Summary</h2>
+    <div class="note">
+      <span class="pill">Local-first</span> Your practices, completion history,
+      awards and special-day notes are stored on your device by default.<br /><br />
+      <span class="pill">Optional account</span> Signing in with Google is optional
+      and only used to back up and sync that same data across your devices.<br /><br />
+      <span class="pill">No ads, no analytics</span> The app has no advertising SDKs
+      and no analytics/tracking SDKs of any kind.<br /><br />
+      <span class="pill">Location is on-demand only</span> Your location is only
+      read when you tap "Find Nearby Temple," and is sent only to OpenStreetMap to
+      run that one search — never stored, never sent anywhere else.
+    </div>
+
+    <h2>Information We Collect</h2>
+    <p><strong>Information you create in the app</strong> — stored on your device:</p>
+    <ul>
+      <li>Practice names, categories, frequencies and reminder times you set up</li>
+      <li>Which days you've marked a practice complete</li>
+      <li>Award progress and special-day contributions you log</li>
+      <li>Your language and theme preference</li>
+    </ul>
+    <p>None of this is sent anywhere unless you choose to sign in (see below).</p>
+
+    <p><strong>Information from an optional Google sign-in:</strong></p>
+    <ul>
+      <li>Your name, email address and profile picture, as provided by Google, to identify your account</li>
+      <li>The practice data listed above, synced to our cloud database (Google Firebase/Firestore) under your account, so it can be restored on another device or after reinstalling the app</li>
+    </ul>
+    <p>
+      If you never sign in, none of this applies — the app works fully offline as a guest,
+      and no account information is ever created or collected.
+    </p>
+
+    <p><strong>Information read only when you use a specific feature:</strong></p>
+    <ul>
+      <li>
+        <strong>Location</strong> — read from your device only at the moment you tap
+        "Find Nearby Temple," and sent only to
+        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap's Overpass API</a>,
+        a free public service, to search for nearby temples. We do not store this
+        location, log it, or send it to any other service.
+      </li>
+    </ul>
+
+    <h2>How We Use Information</h2>
+    <ul>
+      <li>To show your practices, streaks and progress back to you</li>
+      <li>To schedule the local reminder notifications you set (generated entirely on your device — no notification server is involved)</li>
+      <li>To sync your data across your devices, only if you've signed in</li>
+      <li>To find the nearest temple, only at the moment you ask for it</li>
+    </ul>
+    <p>We do not use your information for advertising, and we do not sell or rent your information to anyone.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>The app talks to a small, fixed set of outside services, and only when relevant:</p>
+    <ul>
+      <li><strong>Google Sign-In &amp; Firebase (Google LLC)</strong> — only if you choose to sign in, for authentication and optional cloud sync of your practice data.</li>
+      <li><strong>OpenStreetMap Overpass API</strong> — only when you tap "Find Nearby Temple," to search for temples near your current location.</li>
+      <li><strong>Apple Maps / Google Maps / Yandex Maps</strong> — only if you choose to open a found temple's location in one of these apps; at that point you leave Theravada Daily and that map app's own privacy policy applies.</li>
+    </ul>
+    <p>We have no advertising network, analytics SDK, or crash-reporting SDK integrated into the app.</p>
+
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>
+      Data stored only on your device is removed when you delete the app, or you
+      can delete individual practices at any time within the app (long-press a
+      practice → Delete).
+    </p>
+    <p>
+      If you've signed in and synced data to our cloud database, that data persists
+      under your account until you ask us to delete it. To request deletion of your
+      cloud account data, contact us at the address below.
+    </p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+      Theravada Daily is not directed at children under 13, and we do not knowingly
+      collect personal information from children under 13.
+    </p>
+
+    <h2>Your Choices</h2>
+    <ul>
+      <li>You can use the entire app without ever signing in or granting location access.</li>
+      <li>You can sign out of your account at any time from Settings.</li>
+      <li>You can deny or later revoke location permission in your device's system settings — the rest of the app continues to work normally without it.</li>
+      <li>You can delete any practice, which removes it from your device (and from the cloud, if signed in, on your next sync).</li>
+    </ul>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      If this policy changes, we'll update the "Last updated" date above. Material
+      changes will be reflected here before they take effect.
+    </p>
+
+    <h2>Contact Us</h2>
+    <p>
+      Questions about this policy, or requests to delete your account data, can be
+      sent to: <strong>[REPLACE WITH YOUR CONTACT EMAIL]</strong>
+    </p>
+
+    <footer>
+      Theravada Daily — Privacy Policy
+    </footer>
+  </div>
+</body>
+</html>
